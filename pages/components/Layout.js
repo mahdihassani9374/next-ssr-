@@ -3,9 +3,26 @@ import ReactGA from 'react-ga';
 
 import Router from "next/router";
 import withGA from "next-ga";
-
+import React, { useEffect , useState } from 'react'
+import $ from 'jquery'
 
 function Layout() {
+    useEffect(() => {
+        $(window).scroll(function () {
+            scroll_menu()
+        });
+        scroll_menu();
+
+        function scroll_menu() {
+            var scroll = $(window).scrollTop();
+            if (scroll > 58) {
+                $('.navbar.navbar-inverse').addClass('navbar-scroll');
+            }
+            else {
+                $('.navbar.navbar-inverse').removeClass('navbar-scroll');
+            }
+        }
+    }, [])
     return (
         <div>
             <Head>
