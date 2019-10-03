@@ -1,7 +1,7 @@
 import Head from 'next/head'
 function Layout() {
     return (
-        <div>
+        <div dir="rtl">
             <Head>
                 <title>next js</title>
                 <link rel="stylesheet" href="static/lib/bootstrap/dist/css/bootstrap.min.rtl.css" />
