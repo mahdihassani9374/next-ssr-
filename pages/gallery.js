@@ -1,15 +1,19 @@
-import Link from 'next/link'
+import Header1 from './components/Header1'
+import About from './components/About'
+import Footer from './components/Footer'
+import Gallery from './components/Gallery'
+import Layout from './components/Layout'
 import Head from 'next/head'
-const Gallery = () => (
-    <div>
+const Project = () => (
+    <div dir="rtl">
         <Head>
-            <title>gallery</title>
+            <title>  گالری عکس - مهدی و مبین حسنی </title>
         </Head>
-        <p>Hello gallery</p>
-        <Link href="/">
-            <a>home</a>
-        </Link>
+        <Layout />
+        <Header1 icon="pe-7s-diamond"> گالری عکس - مهدی مبین حسنی </Header1>
+        <Gallery />
+        <Footer />
     </div>
 )
 
-export default Gallery
+export default Project
