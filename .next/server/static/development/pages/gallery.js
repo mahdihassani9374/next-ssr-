@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2642,22 +2642,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-ga */ "react-ga");
+/* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_ga__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next-ga */ "next-ga");
+/* harmony import */ var next_ga__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_ga__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
+
+ // ReactGA.initialize('');
+// ReactGA.pageview(window.location.pathname + window.location.search);
+
 function Layout() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 11
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 12
     },
     __self: this
   }, __jsx("link", {
@@ -2665,7 +2675,7 @@ function Layout() {
     href: "static/lib/bootstrap/dist/css/bootstrap.min.rtl.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 13
     },
     __self: this
   }), __jsx("link", {
@@ -2673,7 +2683,7 @@ function Layout() {
     href: "static/lib/font-awesome-4.7.0/css/font-awesome.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 14
     },
     __self: this
   }), __jsx("link", {
@@ -2681,7 +2691,7 @@ function Layout() {
     href: "static/fonts/font-fa.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 15
     },
     __self: this
   }), __jsx("link", {
@@ -2689,7 +2699,7 @@ function Layout() {
     href: "static/css/animate.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 16
     },
     __self: this
   }), __jsx("link", {
@@ -2697,7 +2707,7 @@ function Layout() {
     href: "static/css/styles.css?v=0.0.1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 17
     },
     __self: this
   }), __jsx("link", {
@@ -2705,7 +2715,7 @@ function Layout() {
     href: "static/lib/pe-icon-7-stroke/css/helper.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 18
     },
     __self: this
   }), __jsx("link", {
@@ -2713,7 +2723,7 @@ function Layout() {
     href: "static/lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 19
     },
     __self: this
   }), __jsx("link", {
@@ -2721,14 +2731,14 @@ function Layout() {
     href: "static/css/override.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 20
     },
     __self: this
   }), __jsx("meta", {
     charset: "UTF-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 21
     },
     __self: this
   }), __jsx("meta", {
@@ -2736,7 +2746,7 @@ function Layout() {
     content: "\u0648\u0628 \u0633\u0627\u06CC\u062A \u0634\u062E\u0635\u06CC \u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 22
     },
     __self: this
   }), __jsx("meta", {
@@ -2744,7 +2754,7 @@ function Layout() {
     content: "\u0645\u0647\u062F\u06CC \u062D\u0633\u0646\u06CC  , \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC  , \u062D\u0633\u0646\u06CC  , \u0628\u0631\u0627\u0631\u062F\u0627\u0646 \u062D\u0633\u0646\u06CC  , \u062F\u0648\u0642\u0644\u0648\u0647\u0627 , \u062D\u0633\u0646\u06CC \u062F\u0648\u0642\u0644\u0648 , \u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC , \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC  ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 23
     },
     __self: this
   }), __jsx("meta", {
@@ -2752,7 +2762,7 @@ function Layout() {
     content: "John Doe",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 24
     },
     __self: this
   }), __jsx("meta", {
@@ -2760,7 +2770,7 @@ function Layout() {
     content: "width=device-width, initial-scale=1.0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 25
     },
     __self: this
   }), __jsx("meta", {
@@ -2768,7 +2778,7 @@ function Layout() {
     content: "profile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 27
     },
     __self: this
   }), __jsx("meta", {
@@ -2776,7 +2786,7 @@ function Layout() {
     content: "\u0648\u0628 \u0633\u0627\u06CC\u062A \u0634\u062E\u0635\u06CC \u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 28
     },
     __self: this
   }), __jsx("meta", {
@@ -2784,7 +2794,7 @@ function Layout() {
     content: "http://mobinmahdi.ir",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 29
     },
     __self: this
   }), __jsx("meta", {
@@ -2792,7 +2802,7 @@ function Layout() {
     content: "static/images/profile.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 30
     },
     __self: this
   }), __jsx("link", {
@@ -2801,21 +2811,13 @@ function Layout() {
     href: "static/images/icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 31
     },
     __self: this
-  })), __jsx("script", {
-    async: true,
-    src: "https://www.googletagmanager.com/gtag/js?id=UA-123462599-1",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }));
+  })));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
+/* harmony default export */ __webpack_exports__["default"] = (next_ga__WEBPACK_IMPORTED_MODULE_4___default()("UA-123462599-1", next_router__WEBPACK_IMPORTED_MODULE_3___default.a)(Layout));
 
 /***/ }),
 
@@ -2897,7 +2899,7 @@ const Project = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!********************************!*\
   !*** multi ./pages/gallery.js ***!
   \********************************/
@@ -2986,6 +2988,17 @@ module.exports = require("core-js/library/fn/promise");
 
 /***/ }),
 
+/***/ "next-ga":
+/*!**************************!*\
+  !*** external "next-ga" ***!
+  \**************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-ga");
+
+/***/ }),
+
 /***/ "next/head":
 /*!****************************!*\
   !*** external "next/head" ***!
@@ -2994,6 +3007,17 @@ module.exports = require("core-js/library/fn/promise");
 /***/ (function(module, exports) {
 
 module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
 
 /***/ }),
 
@@ -3027,6 +3051,17 @@ module.exports = require("prop-types-exact");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "react-ga":
+/*!***************************!*\
+  !*** external "react-ga" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-ga");
 
 /***/ }),
 

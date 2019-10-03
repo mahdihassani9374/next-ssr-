@@ -1,4 +1,11 @@
 import Head from 'next/head'
+import ReactGA from 'react-ga';
+
+import Router from "next/router";
+import withGA from "next-ga";
+
+// ReactGA.initialize('');
+// ReactGA.pageview(window.location.pathname + window.location.search);
 function Layout() {
     return (
         <div>
@@ -23,10 +30,8 @@ function Layout() {
                 <meta property="og:image" content="static/images/profile.jpg" />
                 <link rel="shortcut icon" type="image/png" href="static/images/icon.png" />
             </Head>
-
-            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123462599-1"></script>
         </div>
     )
 }
 
-export default Layout
+export default withGA("UA-123462599-1", Router)(Layout);
