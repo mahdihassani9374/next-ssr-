@@ -2665,20 +2665,19 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // ReactGA.initialize('');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+
 
 function Layout() {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, __jsx("link", {
@@ -2686,7 +2685,7 @@ function Layout() {
     href: "static/lib/bootstrap/dist/css/bootstrap.min.rtl.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }), __jsx("link", {
@@ -2694,7 +2693,7 @@ function Layout() {
     href: "static/lib/font-awesome-4.7.0/css/font-awesome.min.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }), __jsx("link", {
@@ -2702,7 +2701,7 @@ function Layout() {
     href: "static/fonts/font-fa.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }), __jsx("link", {
@@ -2710,7 +2709,7 @@ function Layout() {
     href: "static/css/animate.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }), __jsx("link", {
@@ -2718,7 +2717,7 @@ function Layout() {
     href: "static/css/styles.css?v=0.0.1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }), __jsx("link", {
@@ -2726,7 +2725,7 @@ function Layout() {
     href: "static/lib/pe-icon-7-stroke/css/helper.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }), __jsx("link", {
@@ -2734,7 +2733,7 @@ function Layout() {
     href: "static/lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }), __jsx("link", {
@@ -2742,14 +2741,14 @@ function Layout() {
     href: "static/css/override.css",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }), __jsx("meta", {
     charset: "UTF-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }), __jsx("meta", {
@@ -2757,7 +2756,7 @@ function Layout() {
     content: "\u0648\u0628 \u0633\u0627\u06CC\u062A \u0634\u062E\u0635\u06CC \u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   }), __jsx("meta", {
@@ -2765,7 +2764,7 @@ function Layout() {
     content: "\u0645\u0647\u062F\u06CC \u062D\u0633\u0646\u06CC  , \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC  , \u062D\u0633\u0646\u06CC  , \u0628\u0631\u0627\u0631\u062F\u0627\u0646 \u062D\u0633\u0646\u06CC  , \u062F\u0648\u0642\u0644\u0648\u0647\u0627 , \u062D\u0633\u0646\u06CC \u062F\u0648\u0642\u0644\u0648 , \u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC , \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC  ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 22
     },
     __self: this
   }), __jsx("meta", {
@@ -2773,7 +2772,7 @@ function Layout() {
     content: "John Doe",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }), __jsx("meta", {
@@ -2781,7 +2780,7 @@ function Layout() {
     content: "width=device-width, initial-scale=1.0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   }), __jsx("meta", {
@@ -2789,7 +2788,7 @@ function Layout() {
     content: "profile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }), __jsx("meta", {
@@ -2797,7 +2796,7 @@ function Layout() {
     content: "\u0648\u0628 \u0633\u0627\u06CC\u062A \u0634\u062E\u0635\u06CC \u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   }), __jsx("meta", {
@@ -2805,7 +2804,7 @@ function Layout() {
     content: "http://mobinmahdi.ir",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 28
     },
     __self: this
   }), __jsx("meta", {
@@ -2813,7 +2812,7 @@ function Layout() {
     content: "static/images/profile.jpg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 29
     },
     __self: this
   }), __jsx("link", {
@@ -2822,7 +2821,23 @@ function Layout() {
     href: "static/images/icon.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 30
+    },
+    __self: this
+  }), __jsx("script", {
+    src: "static/lib/jquery-3.1.1/jquery-3.1.1.min.js",
+    type: "text/javascript",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }), __jsx("script", {
+    src: "static/lib/bootstrap/dist/js/bootstrap.min.js",
+    type: "text/javascript",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
     },
     __self: this
   })));

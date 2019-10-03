@@ -4,8 +4,7 @@ import ReactGA from 'react-ga';
 import Router from "next/router";
 import withGA from "next-ga";
 
-// ReactGA.initialize('');
-// ReactGA.pageview(window.location.pathname + window.location.search);
+
 function Layout() {
     return (
         <div>
@@ -29,6 +28,9 @@ function Layout() {
                 <meta property="og:url" content="http://mobinmahdi.ir" />
                 <meta property="og:image" content="static/images/profile.jpg" />
                 <link rel="shortcut icon" type="image/png" href="static/images/icon.png" />
+
+                <script src="static/lib/jquery-3.1.1/jquery-3.1.1.min.js" type="text/javascript"></script>
+                <script src="static/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
             </Head>
         </div>
     )
