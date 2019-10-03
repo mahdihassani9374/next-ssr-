@@ -2349,19 +2349,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Gallery() {
-  const gallery = ['../../static/images/profile.jpg', '../../static/images/profile1.jpg', '../../static/images/profile2.jpg', '../../static/images/4.jpg', '../../static/images/5.jpg', '../../static/images/6.jpg', '../../static/images/7.jpg', '../../static/images/8.JPG'];
+  const gallery = ['../../static/images/9.jpg', '../../static/images/profile.jpg', '../../static/images/profile1.jpg', '../../static/images/profile2.jpg', // '../../static/images/4.jpg',
+  '../../static/images/5.jpg', '../../static/images/6.jpg', '../../static/images/7.jpg', '../../static/images/11.jpg', '../../static/images/12.jpg', '../../static/images/10.jpg' // '../../static/images/8.JPG'
+  ];
   return __jsx("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 19
     },
     __self: this
   }, __jsx("div", {
     className: "row gallery",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 20
     },
     __self: this
   }, gallery.map((item, index) => __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -2369,14 +2371,14 @@ function Gallery() {
     key: index,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 23
     },
     __self: this
   }, __jsx("div", {
     className: "col-md-3 col-xs-6 col-sm-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 24
     },
     __self: this
   }, __jsx("img", {
@@ -2385,7 +2387,7 @@ function Gallery() {
     alt: "\u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC ",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 25
     },
     __self: this
   }))))));
