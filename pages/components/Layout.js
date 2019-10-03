@@ -1,9 +1,8 @@
 import Head from 'next/head'
 function Layout() {
     return (
-        <div dir="rtl">
+        <div>
             <Head>
-                <title>next js</title>
                 <link rel="stylesheet" href="static/lib/bootstrap/dist/css/bootstrap.min.rtl.css" />
                 <link rel="stylesheet" href="static/lib/font-awesome-4.7.0/css/font-awesome.min.css" />
                 <link rel="stylesheet" href="static/fonts/font-fa.css" />

@@ -1,15 +1,18 @@
-import Link from 'next/link'
+import Header1 from './components/Header1'
+import About from './components/About'
+import Footer from './components/Footer'
+import Layout from './components/Layout'
 import Head from 'next/head'
-const About = () => (
-    <div>
+const about = () => (
+    <div dir="rtl">
         <Head>
-            <title>about</title>
+            <title>درباره ما - مهدی و مبین حسنی </title>
         </Head>
-        <p>Hello about</p>
-        <Link href="/">
-            <a>home</a>
-        </Link>
+        <Layout />
+        <Header1 icon="pe-7s-user"> درباره ما  - مهدی مبین حسنی </Header1>
+        <About />
+        <Footer />
     </div>
 )
 
-export default About
+export default about

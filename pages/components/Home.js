@@ -7,7 +7,7 @@ import About from './About'
 import Footer from './Footer'
 function Home() {
     return (
-        <div>
+        <div dir="rtl">
            <Header />
            <Services />
            <Bg />

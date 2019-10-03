@@ -8,7 +8,7 @@ function Index() {
             <Layout />
             <Home />
             <Head>
-                <title>next js</title>
+                <title>مهدی و مبین حسنی </title>
             </Head>
         </div>
     )
