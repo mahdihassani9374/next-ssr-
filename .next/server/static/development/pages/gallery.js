@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2006,114 +2006,6 @@ function About() {
 
 /***/ }),
 
-/***/ "./pages/components/Bg.js":
-/*!********************************!*\
-  !*** ./pages/components/Bg.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-wow */ "react-wow");
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Bg.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function Bg() {
-  return __jsx("div", {
-    className: "bg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "bg__title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, "\u0637\u0631\u0627\u062D\u06CC \u062E\u0644\u0627\u0642\u0627\u062A\u0647 \u0648 \u0631\u0633\u067E\u0627\u0646\u06CC\u0633\u0648 \u0633\u0627\u06CC\u062A \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u0645\u0627 \u0628\u0633\u067E\u0627\u0631\u06CC\u062F "), __jsx("div", {
-    className: "bg__desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "\u0633\u0627\u06CC\u062A \u0631\u06CC\u0633\u067E\u0627\u0646\u0633\u06CC\u0648 (Responsive) \u06CC\u0627 \u0648\u0627\u06A9\u0646\u0634 \u06AF\u0631\u0627\u060C \u0648\u0628 \u0633\u0627\u06CC\u062A\u06CC \u0627\u0633\u062A \u06A9\u0647 \u062F\u0631 \u0645\u0631\u0648\u0631\u06AF\u0631 \u0647\u0627\u06CC \u062F\u06CC\u0648\u0627\u06CC\u0633 \u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641 \u0645\u0627\u0646\u0646\u062F \u0644\u067E\u062A\u0627\u067E \u060C \u06AF\u0648\u0634\u06CC \u0647\u0627\u06CC \u0645\u0648\u0628\u0627\u06CC\u0644 \u0648 \u2026 \u0634\u06A9\u0644 \u0648 \u0642\u0627\u0644\u0628 \u062E\u0648\u062F \u0631\u0627 \u062D\u0641\u0638 \u06A9\u0646\u062F. \u0628\u0627 \u06AF\u0633\u062A\u0631\u0634 \u062F\u0646\u06CC\u0627\u06CC \u0627\u06CC\u0646\u062A\u0631\u0646\u062A \u0648 \u06AF\u0648\u0634\u06CC \u0647\u0627\u06CC \u0647\u0648\u0634\u0645\u0646\u062F \u0648 \u062A\u0628\u0644\u062A \u0647\u0627 \u060C \u062A\u06A9\u0646\u06CC\u06A9 \u0637\u0631\u0627\u062D\u06CC \u0633\u0627\u06CC\u062A \u0631\u06CC\u0633\u067E\u0627\u0646\u0633\u06CC\u0648 \u0627\u0647\u0645\u06CC\u062A \u0628\u0633\u06CC\u0627\u0631\u06CC \u067E\u06CC\u062F\u0627 \u06A9\u0631\u062F")));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Bg);
-
-/***/ }),
-
-/***/ "./pages/components/Bg1.js":
-/*!*********************************!*\
-  !*** ./pages/components/Bg1.js ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-wow */ "react-wow");
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Bg1.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function Bg1() {
-  return __jsx("div", {
-    className: "bg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "bg__title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, "\u0637\u0631\u0627\u062D\u06CC \u062E\u0644\u0627\u0642\u0627\u062A\u0647 \u0648 \u0631\u0633\u067E\u0627\u0646\u06CC\u0633\u0648 \u0633\u0627\u06CC\u062A \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u0645\u0627 \u0628\u0633\u067E\u0627\u0631\u06CC\u062F "), __jsx("div", {
-    className: "bg__desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "\u0633\u0627\u06CC\u062A \u0631\u06CC\u0633\u067E\u0627\u0646\u0633\u06CC\u0648 (Responsive) \u06CC\u0627 \u0648\u0627\u06A9\u0646\u0634 \u06AF\u0631\u0627\u060C \u0648\u0628 \u0633\u0627\u06CC\u062A\u06CC \u0627\u0633\u062A \u06A9\u0647 \u062F\u0631 \u0645\u0631\u0648\u0631\u06AF\u0631 \u0647\u0627\u06CC \u062F\u06CC\u0648\u0627\u06CC\u0633 \u0647\u0627\u06CC \u0645\u062E\u062A\u0644\u0641 \u0645\u0627\u0646\u0646\u062F \u0644\u067E\u062A\u0627\u067E \u060C \u06AF\u0648\u0634\u06CC \u0647\u0627\u06CC \u0645\u0648\u0628\u0627\u06CC\u0644 \u0648 \u2026 \u0634\u06A9\u0644 \u0648 \u0642\u0627\u0644\u0628 \u062E\u0648\u062F \u0631\u0627 \u062D\u0641\u0638 \u06A9\u0646\u062F. \u0628\u0627 \u06AF\u0633\u062A\u0631\u0634 \u062F\u0646\u06CC\u0627\u06CC \u0627\u06CC\u0646\u062A\u0631\u0646\u062A \u0648 \u06AF\u0648\u0634\u06CC \u0647\u0627\u06CC \u0647\u0648\u0634\u0645\u0646\u062F \u0648 \u062A\u0628\u0644\u062A \u0647\u0627 \u060C \u062A\u06A9\u0646\u06CC\u06A9 \u0637\u0631\u0627\u062D\u06CC \u0633\u0627\u06CC\u062A \u0631\u06CC\u0633\u067E\u0627\u0646\u0633\u06CC\u0648 \u0627\u0647\u0645\u06CC\u062A \u0628\u0633\u06CC\u0627\u0631\u06CC \u067E\u06CC\u062F\u0627 \u06A9\u0631\u062F")));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Bg1);
-
-/***/ }),
-
 /***/ "./pages/components/Footer.js":
 /*!************************************!*\
   !*** ./pages/components/Footer.js ***!
@@ -2438,10 +2330,77 @@ function Footer() {
 
 /***/ }),
 
-/***/ "./pages/components/Header.js":
-/*!************************************!*\
-  !*** ./pages/components/Header.js ***!
-  \************************************/
+/***/ "./pages/components/Gallery.js":
+/*!*************************************!*\
+  !*** ./pages/components/Gallery.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-wow */ "react-wow");
+/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Gallery.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function Gallery() {
+  const gallery = ['../../static/images/9.jpg', '../../static/images/profile.jpg', '../../static/images/profile1.jpg', '../../static/images/profile2.jpg', // '../../static/images/4.jpg',
+  '../../static/images/5.jpg', '../../static/images/6.jpg', '../../static/images/7.jpg', '../../static/images/11.jpg', '../../static/images/12.jpg', '../../static/images/10.jpg' // '../../static/images/8.JPG'
+  ];
+  return __jsx("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "row gallery",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, gallery.map((item, index) => __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    animation: "zoomIn",
+    key: index,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-md-3 col-xs-6 col-sm-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("img", {
+    src: item,
+    className: "img-responsive img-thumbnail img-gallery",
+    alt: "\u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC ",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }))))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Gallery);
+
+/***/ }),
+
+/***/ "./pages/components/Header1.js":
+/*!*************************************!*\
+  !*** ./pages/components/Header1.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2453,15 +2412,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Header.js";
+var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Header1.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-function Header() {
+function Header1({
+  icon,
+  children
+}) {
   return __jsx("header", {
-    className: "header",
+    className: "header header-custom",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -2618,14 +2580,14 @@ function Header() {
     },
     __self: this
   }, "\u06AF\u0627\u0644\u0631\u06CC \u0639\u06A9\u0633"))))))), __jsx("section", {
-    className: "header__section",
+    className: "header__section header__section-custom",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
   }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "bounceInDown",
+    animation: "bounceInUp",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
@@ -2638,266 +2600,34 @@ function Header() {
       lineNumber: 30
     },
     __self: this
-  }, "\u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC ")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
+  }, children)), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    animation: "bounceInDown",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
   }, __jsx("div", {
-    className: "text-center",
+    className: "mt-20",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
-  }, __jsx("img", {
-    src: "../static/images/profile.jpg",
-    className: "header__section__img",
-    alt: "\u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC",
+  }, __jsx("i", {
+    className: icon,
+    style: {
+      fontSize: '50px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  }))), __jsx("div", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "bounceInUp",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx("h4", {
-    className: "header__section__desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "programmer and web designer")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "bounceInUp",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, __jsx("h4", {
-    className: "header__section__desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, "\u0645\u0627 \u0639\u0627\u0634\u0642 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC \u0627\u06CC\u0645")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "bounceInLeft",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "padding-10 line-height-30",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, " \u0628\u06CC\u0634\u062A\u0631 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u0627\u0646 \u062E\u0648\u0628 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC \u0645\u06CC \u06A9\u0646\u0646\u062F \u0646\u0647 \u0628\u0647 \u0627\u06CC\u0646 \u0639\u0644\u062A \u06A9\u0647 \u0627\u0646\u062A\u0638\u0627\u0631 \u062F\u0627\u0631\u0646\u062F \u062F\u0633\u062A\u0645\u0632\u062F \u0628\u06AF\u06CC\u0631\u0646\u062F \u06CC\u0627 \u0627\u0632 \u0633\u0648\u06CC \u0639\u0645\u0648\u0645 \u062A\u062D\u0633\u06CC\u0646 \u0634\u0648\u0646\u062F\u060C \u0628\u0644\u06A9\u0647 \u0686\u0648\u0646 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC \u0628\u0631\u0627\u06CC\u0634\u0627\u0646 \u0633\u0631\u06AF\u0631\u0645 \u06A9\u0646\u0646\u062F\u0647 \u0627\u0633\u062A"))), __jsx("div", {
-    className: "text-center col-md-12 flex",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "bounceInUp",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "header__section__link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "pe-7s-home",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "header__section__link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "pe-7s-users",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/project",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "header__section__link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "pe-7s-diamond",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/gallery",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "header__section__link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "pe-7s-camera",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    },
-    __self: this
-  })))))));
+  })))));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./pages/components/Home.js":
-/*!**********************************!*\
-  !*** ./pages/components/Home.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header */ "./pages/components/Header.js");
-/* harmony import */ var _Services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Services */ "./pages/components/Services.js");
-/* harmony import */ var _Bg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Bg */ "./pages/components/Bg.js");
-/* harmony import */ var _Bg1__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Bg1 */ "./pages/components/Bg1.js");
-/* harmony import */ var _ProjectItem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ProjectItem */ "./pages/components/ProjectItem.js");
-/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./About */ "./pages/components/About.js");
-/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Footer */ "./pages/components/Footer.js");
-var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Home.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-
-function Home() {
-  return __jsx("div", {
-    dir: "rtl",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), __jsx(_Services__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx(_Bg__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), __jsx(_ProjectItem__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), __jsx(_Bg1__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }), __jsx(_About__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ __webpack_exports__["default"] = (Header1);
 
 /***/ }),
 
@@ -3127,10 +2857,10 @@ function Layout() {
 
 /***/ }),
 
-/***/ "./pages/components/ProjectItem.js":
-/*!*****************************************!*\
-  !*** ./pages/components/ProjectItem.js ***!
-  \*****************************************/
+/***/ "./pages/gallery.js":
+/*!**************************!*\
+  !*** ./pages/gallery.js ***!
+  \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -3138,464 +2868,14 @@ function Layout() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-wow */ "react-wow");
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\ProjectItem.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function ProjectItem() {
-  const projects = [{
-    name: 'آلتین سی ان سی (altin cnc)',
-    img: '../../static/images/altin.png',
-    link: 'http://altincnc.com'
-  }, {
-    name: 'هیوا پرواز (درحال پیاده سازی)',
-    img: '../../static/images/hyva.png',
-    link: 'http://hyva.ferdows110.ir'
-  }, {
-    name: 'آستان قدس رضوی منطقه ۱۸ تهران',
-    img: '../../static/images/kannon.png',
-    link: 'http://kanoon.ferdows110.ir'
-  }, {
-    name: 'اکانت گیم',
-    img: '../../static/images/project4.png',
-    link: 'http://accountgame.ir'
-  }, {
-    name: 'هیئت قائمیون',
-    img: '../../static/images/project2.png',
-    link: 'http://ferdows110.ir'
-  }, {
-    name: 'صراط وکتور',
-    img: '../../static/images/project3.png',
-    link: 'http://seratvector.ir'
-  }, {
-    name: 'تهران گرافیک',
-    img: '../../static/images/project3.png',
-    link: 'http://tehran-graphic.ir'
-  }, {
-    name: 'ایمن صنعت پارسیان',
-    img: '../../static/images/project1.png',
-    link: 'http://imensanaateparsian.ir'
-  }];
-  const android = [{
-    name: 'اپلیکیشن هیئت قائمیون',
-    img: ['../../static/images/application.png', '../../static/images/application1.png', '../../static/images/application2.png'],
-    link: 'http://s9.picofile.com/file/8366729968/qaemioun_app.apk.html'
-  }];
-  return __jsx("section", {
-    className: "section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "\u067E\u0631\u0648\u0698\u0647 \u0647\u0627")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__subtitle",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, "\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u0627\u0646\u062C\u0627\u0645 \u0634\u062F\u0647 \u0645\u0627 \u062A\u062D\u062A \u0648\u0628")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, "\u062F\u0631 \u0627\u06CC\u0646 \u0642\u0633\u0645\u062A \u0645\u06CC \u062A\u0648\u0627\u0646\u06CC\u062F \u0646\u0645\u0648\u0646\u0647 \u06A9\u0627\u0631\u0647\u0627\u06CC \u062A\u062D\u0628 \u0648\u0628 \u0645\u0627\u0631\u0627 \u0645\u0634\u0627\u0647\u062F\u0647 \u06A9\u0646\u06CC\u062F")), __jsx("div", {
-    className: "mt-80 mb-40 flex",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, projects.map((item, index) => __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    key: index,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-md-4 col-sm-6 col-xs-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("a", {
-    target: "_blank",
-    href: item.link,
-    className: "link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__box p-0 pulse-hover",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, __jsx("img", {
-    src: item.img,
-    className: "img-responsive",
-    alt: item.name,
-    style: {
-      borderBottom: '1px solid #ccc'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "padding-10",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, item.name)))))))), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__subtitle",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "\u067E\u0631\u0648\u0698\u0647 \u0647\u0627\u06CC \u0627\u0646\u062C\u0627\u0645 \u0634\u062F\u0647 \u0627\u0646\u062F\u0631\u0648\u06CC\u062F\u06CC (\u0627\u067E\u0644\u06CC\u06A9\u06CC\u0634\u0646) ")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, "\u062F\u0631 \u0627\u06CC\u0646 \u0642\u0633\u0645\u062A \u0645\u06CC \u062A\u0648\u0627\u0646\u06CC\u062F \u0646\u0645\u0648\u0646\u0647 \u06A9\u0627\u0631\u0647\u0627\u06CC \u062A\u062D\u0628 \u0627\u0646\u062F\u0631\u0648\u06CC\u062F  \u0645\u0627\u0631\u0627 \u0645\u0634\u0627\u0647\u062F\u0647 \u06A9\u0646\u06CC\u062F")), __jsx("div", {
-    className: "mt-80 mb-40 flex",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }, android.map((item, index) => __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "",
-    key: index,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-md-12 col-sm-12 col-xs-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67
-    },
-    __self: this
-  }, __jsx("a", {
-    target: "_blank",
-    href: item.link,
-    className: "link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "p-0 pulse-hover",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, item.img.map((img, ind) => __jsx("img", {
-    src: img,
-    key: ind,
-    className: "img-app",
-    alt: item.name,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  })))), __jsx("div", {
-    className: "padding-10 text-center margin-top-20",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78
-    },
-    __self: this
-  }, item.name)))))))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (ProjectItem);
-
-/***/ }),
-
-/***/ "./pages/components/Services.js":
-/*!**************************************!*\
-  !*** ./pages/components/Services.js ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-wow */ "react-wow");
-/* harmony import */ var react_wow__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_wow__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\components\\Services.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function Services() {
-  const services = [{
-    title: ' سایت واکنش گرا ',
-    icon: 'pe-7s-phone',
-    desc: 'طراحی سایت واکنش گرا ( ریسپانسیو)  '
-  }, {
-    title: 'سئو سایت (SEO)',
-    icon: 'pe-7s-look',
-    desc: 'با ما تو گوگل حالا حالاها بالا باشید'
-  }, {
-    title: 'خدمات و پشتیبانی رایگان',
-    icon: 'pe-7s-server',
-    desc: 'خدمات و پشتیبانی در کمترین زمان ممکن '
-  }, {
-    title: 'طراحی سایت داینامیک',
-    icon: 'pe-7s-monitor',
-    desc: 'سایتتو خودت طراحی کن '
-  }];
-  return __jsx("section", {
-    className: "section",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, "\u0645\u0639\u0631\u0641\u06CC")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__subtitle",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "\u062E\u062F\u0645\u0627\u062A\u06CC \u06A9\u0647 \u0627\u0631\u0627\u0626\u0647 \u0645\u06CC\u200C\u062F\u0647\u06CC\u0645")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__desc  wow zoomIn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "\u06CC\u06A9\u06CC \u0627\u0632 \u0645\u0647\u0645 \u062A\u0631\u06CC\u0646 \u0648 \u06A9\u0627\u0631\u0628\u0631\u062F\u06CC \u062A\u0631\u06CC\u0646 \u0627\u0628\u0632\u0627\u0631 \u06A9\u0633\u0628 \u0648 \u06A9\u0627\u0631 \u0648 \u0641\u0639\u0627\u0644\u06CC\u062A \u062F\u0631 \u062C\u0627\u0645\u0639\u0647 \u0627\u0645\u0631\u0648\u0632\u06CC \u0628\u062F\u0648\u0646 \u0634\u06A9 \u0637\u0631\u0627\u062D\u06CC \u0633\u0627\u06CC\u062A \u0645\u06CC \u0628\u0627\u0634\u062F. Web Design \u06CC\u0627 \u0637\u0631\u0627\u062D\u06CC \u0633\u0627\u06CC\u062A \u0628\u0647 \u0645\u062C\u0645\u0648\u0639\u0647 \u0627\u06CC \u0627\u0632 \u0635\u0641\u062D\u0647 \u0647\u0627\u06CC \u0648\u0628 \u06AF\u0641\u062A\u0647 \u0645\u06CC \u0634\u0648\u062F \u06A9\u0647 \u0634\u0627\u0645\u0644 \u062A\u0635\u0627\u0648\u06CC\u0631 \u0648 \u0648\u06CC\u062F\u0626\u0648\u0647\u0627 \u0648 \u0645\u062A\u0648\u0646 \u0648 \u0633\u0627\u06CC\u0631 \u0641\u0627\u06CC\u0644 \u0647\u0627\u06CC \u062F\u06CC\u062C\u06CC\u062A\u0627\u0644\u06CC \u0627\u0633\u062A. \u062F\u0627\u062F\u0647 \u0647\u0627 \u0648 \u0627\u0637\u0644\u0627\u0639\u0627\u062A\u06CC \u06A9\u0647 \u062F\u0631 \u0637\u0631\u0627\u062D\u06CC \u0633\u0627\u06CC\u062A \u0627\u0632 \u0622\u0646 \u0627\u0633\u062A\u0641\u0627\u062F\u0647 \u0645\u06CC \u0634\u0648\u062F \u0627\u0632 \u0637\u0631\u06CC\u0642 \u0627\u06CC\u0646\u062A\u0631\u0646\u062A \u0628\u0631 \u0631\u0648\u06CC \u0633\u0631\u0648\u0631\u0647\u0627\u06CC\u06CC \u06A9\u0647 \u0628\u0631 \u0631\u0648\u06CC \u062F\u06CC\u062A\u0627 \u0633\u0646\u062A\u0631 \u0648\u062C\u0648\u062F \u062F\u0627\u0631\u062F \u0642\u0631\u0627\u0631 \u06AF\u0631\u0641\u062A\u0647 \u0627\u0633\u062A. \u0632\u0645\u0627\u0646\u06CC \u06A9\u0647 \u0634\u0645\u0627 \u06A9\u0627\u0631 \u0637\u0631\u0627\u062D\u06CC \u0633\u0627\u06CC\u062A \u062E\u0648\u062F \u0631\u0627 \u0628\u0647 \u067E\u0627\u06CC\u0627\u0646 \u0628\u0631\u0633\u0627\u0646\u06CC\u062F \u0622\u0646 \u0631\u0627 \u0628\u0647 \u0633\u0631\u0648\u0631 \u0627\u0646\u062A\u0642\u0627\u0644 \u0645\u06CC \u062F\u0647\u06CC\u062F \u0648 \u062F\u0627\u0645\u0646\u0647 \u06CC\u0627 \u0646\u0627\u0645 \u0633\u0627\u06CC\u062A \u062E\u0648\u062F \u0631\u0627 \u06A9\u0647 \u0628\u0627\u06CC\u062F \u0627\u0632 \u0642\u0628\u0644 \u062E\u0631\u06CC\u062F\u0627\u0631\u06CC \u0646\u0645\u0627\u06CC\u06CC\u062F \u0631\u0627 \u0628\u0647 \u0622\u0646 \u0627\u062E\u062A\u0635\u0627\u0635 \u062F\u0627\u062F\u0647 \u0648 \u0627\u06A9\u0646\u0648\u0646 \u062F\u0631 \u0647\u0631 \u0646\u0642\u0637\u0647 \u0627\u06CC \u0627\u0632 \u062C\u0647\u0627\u0646 \u0642\u0627\u0628\u0644 \u0645\u0634\u0627\u0647\u062F\u0647 \u062E\u0648\u0627\u0647\u06CC\u062F \u0628\u0648\u062F. \u062F\u0631 \u0627\u06CC\u0646 \u0646\u0648\u0634\u062A\u0627\u0631 \u0628\u0631 \u0622\u0646 \u0634\u062F\u06CC\u0645 \u06A9\u0647 \u0645\u0648\u0627\u0631\u062F\u06CC \u0631\u0627 \u062F\u0631 \u062C\u0647\u062A \u0634\u0631\u062D \u0627\u0647\u0645\u06CC\u062A \u0637\u0631\u0627\u062D\u06CC \u0633\u0627\u06CC\u062A \u0628\u06CC\u0627\u0646 \u06A9\u0646\u06CC\u0645.")), __jsx("div", {
-    className: "mt-80 mb-40",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, services.map((item, index) => __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    animation: "zoomIn",
-    key: index,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-md-3 col-sm-6 col-xs-12",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "section__box",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, __jsx("span", {
-    className: "section__box__icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, __jsx("i", {
-    className: item.icon,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "section__box__title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, item.title), __jsx("div", {
-    className: "section__box__desc",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, item.desc))))))))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Services);
-
-/***/ }),
-
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Home */ "./pages/components/Home.js");
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Layout */ "./pages/components/Layout.js");
-var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\index.js";
+/* harmony import */ var _components_Header1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Header1 */ "./pages/components/Header1.js");
+/* harmony import */ var _components_About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/About */ "./pages/components/About.js");
+/* harmony import */ var _components_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/Footer */ "./pages/components/Footer.js");
+/* harmony import */ var _components_Gallery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Gallery */ "./pages/components/Gallery.js");
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/Layout */ "./pages/components/Layout.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "E:\\project\\react\\next-ssr-\\pages\\gallery.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3603,52 +2883,66 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-function Index() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }), __jsx(_components_Home__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), __jsx(next_head__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "\u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC ")));
-}
 
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+
+const Project = () => __jsx("div", {
+  dir: "rtl",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("title", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "  \u06AF\u0627\u0644\u0631\u06CC \u0639\u06A9\u0633 - \u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC ")), __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), __jsx(_components_Header1__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  icon: "pe-7s-diamond",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, " \u06AF\u0627\u0644\u0631\u06CC \u0639\u06A9\u0633 - \u0645\u0647\u062F\u06CC \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC "), __jsx(_components_Gallery__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), __jsx(_components_Footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Project);
 
 /***/ }),
 
-/***/ 3:
-/*!******************************!*\
-  !*** multi ./pages/index.js ***!
-  \******************************/
+/***/ 5:
+/*!********************************!*\
+  !*** multi ./pages/gallery.js ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\project\react\next-ssr-\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! E:\project\react\next-ssr-\pages\gallery.js */"./pages/gallery.js");
 
 
 /***/ }),
@@ -3852,4 +3146,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=gallery.js.map

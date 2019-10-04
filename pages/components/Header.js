@@ -52,10 +52,10 @@ function Header() {
                         <Link href="/">
                            <a className="header__section__link"><i className="pe-7s-home"></i></a>
                         </Link>
-                        <Link href="/aboutUs">
+                        <Link href="/about">
                             <a className="header__section__link"><i className="pe-7s-users"></i></a>
                         </Link>
-                        <Link href="/projects">
+                        <Link href="/project">
                             <a className="header__section__link"><i className="pe-7s-diamond"></i></a>
                         </Link>
                         <Link href="/gallery">
