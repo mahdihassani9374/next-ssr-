@@ -16,11 +16,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/gallery": [
+    "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/index": [
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/project": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
