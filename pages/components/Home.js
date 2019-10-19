@@ -5,6 +5,7 @@ import Bg1 from './Bg1';
 import ProjectItem from './ProjectItem'
 import About from './About'
 import Footer from './Footer'
+import Gallery from './Gallery'
 function Home() {
     return (
         <div dir="rtl">
@@ -13,6 +14,7 @@ function Home() {
            <Bg />
            <ProjectItem />
            <Bg1 />
+           <Gallery />
            <About />
            <Footer />
         </div>
