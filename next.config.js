@@ -1,4 +1,9 @@
 module.exports = {
+  compress: false,
+  devIndicators: {
+    autoPrerender: false,
+  },
+  crossOrigin: 'anonymous',
   env: {
     customKey: 'value',
   },
