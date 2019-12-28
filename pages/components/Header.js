@@ -49,22 +49,31 @@ function Header() {
                 </div>
                 <div className="text-center col-md-12 flex">
                     <ReactWOW animation='bounceInUp'>
-                        <Link href="/">
-                           <a className="header__section__link"><i className="pe-7s-home"></i></a>
-                        </Link>
-                        <Link href="/about">
-                            <a className="header__section__link"><i className="pe-7s-users"></i></a>
-                        </Link>
-                        <Link href="/project">
-                            <a className="header__section__link"><i className="pe-7s-diamond"></i></a>
-                        </Link>
-                        <Link href="/gallery">
-                            <a className="header__section__link"><i className="pe-7s-camera"></i></a>
-                        </Link>
+
                     </ReactWOW>
+                    <Link href="/">
+                        <ReactWOW animation='bounceInUp'>
+                            <a className="header__section__link"><i className="pe-7s-home"></i></a>
+                        </ReactWOW>
+                    </Link>
+                    <Link href="/about">
+                        <ReactWOW animation='bounceInUp'>
+                            <a className="header__section__link"><i className="pe-7s-users"></i></a>
+                        </ReactWOW>
+                    </Link>
+                    <Link href="/project">
+                        <ReactWOW animation='bounceInUp'>
+                            <a className="header__section__link"><i className="pe-7s-diamond"></i></a>
+                        </ReactWOW>
+                    </Link>
+                    <Link href="/gallery">
+                        <ReactWOW animation='bounceInUp'>
+                            <a className="header__section__link"><i className="pe-7s-camera"></i></a>
+                        </ReactWOW>
+                    </Link>
                 </div>
             </section>
-        </header >
+        </header>
     )
 }
 
