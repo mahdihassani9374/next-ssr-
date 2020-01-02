@@ -83,3 +83,36 @@ body{font-family:IRANSans !important;overflow-x:hidden}
         max-width: 100px;
      }
 }
+
+.section .section__box .section__box__desc {
+    font-size: 10px;
+}
+
+.section .section__box .section__box__title {
+    font-size: 13px;
+}
+
+.bg .bg__desc {
+    font-size: 13px;
+}
+
+.bg .bg__title {
+    font-size: 15px;
+}
+
+.section .section__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section .section__desc {
+    font-size: 11px;
+}
+
+.header .header__section .header__section__desc {
+    font-size: 14px;
+}
+
+.header .header__section .header__section__title {
+    font-size: 16px;
+}

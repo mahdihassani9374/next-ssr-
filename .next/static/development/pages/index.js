@@ -16134,10 +16134,10 @@ module.exports = __webpack_require__(/*! ./dist/index.js */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cindex.js!./":
-/*!*********************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cindex.js ***!
-  \*********************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cindex.js!./":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cindex.js ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23934,7 +23934,7 @@ function About() {
       name: 'xamarin',
       range: '60%'
     }, {
-      name: 'mobgo DB',
+      name: 'mongo DB',
       range: '50%'
     }]
   }];
@@ -24181,9 +24181,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Gallery() {
-  var gallery = ['../../static/images/9.jpg', '../../static/images/profile.jpg', '../../static/images/profile1.jpg', '../../static/images/profile2.jpg', // '../../static/images/4.jpg',
-  '../../static/images/5.jpg', '../../static/images/6.jpg', '../../static/images/7.jpg', '../../static/images/11.jpg', '../../static/images/12.jpg', '../../static/images/10.jpg' // '../../static/images/8.JPG'
-  ];
+  var gallery = ['../../static/images/9.png', '../../static/images/profile.png', '../../static/images/profile1.png', '../../static/images/profile2.png', '../../static/images/6.png', '../../static/images/3.JPG'];
   return __jsx("div", {
     className: "container"
   }, __jsx("div", {
@@ -24272,7 +24270,7 @@ function Header() {
   }, __jsx("div", {
     className: "text-center"
   }, __jsx("img", {
-    src: "../static/images/profile.jpg",
+    src: "../static/images/profile.png",
     className: "header__section__img",
     alt: "\u0645\u0647\u062F\u06CC \u0648 \u0645\u0628\u06CC\u0646 \u062D\u0633\u0646\u06CC"
   }))), __jsx("div", {
@@ -24288,7 +24286,10 @@ function Header() {
   }, "\u0645\u0627 \u0639\u0627\u0634\u0642 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC \u0627\u06CC\u0645")), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
     animation: "bounceInLeft"
   }, __jsx("p", {
-    className: "padding-10 line-height-30"
+    className: "padding-10 line-height-30",
+    style: {
+      fontSize: 12
+    }
   }, " \u0628\u06CC\u0634\u062A\u0631 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u0627\u0646 \u062E\u0648\u0628 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC \u0645\u06CC \u06A9\u0646\u0646\u062F \u0646\u0647 \u0628\u0647 \u0627\u06CC\u0646 \u0639\u0644\u062A \u06A9\u0647 \u0627\u0646\u062A\u0638\u0627\u0631 \u062F\u0627\u0631\u0646\u062F \u062F\u0633\u062A\u0645\u0632\u062F \u0628\u06AF\u06CC\u0631\u0646\u062F \u06CC\u0627 \u0627\u0632 \u0633\u0648\u06CC \u0639\u0645\u0648\u0645 \u062A\u062D\u0633\u06CC\u0646 \u0634\u0648\u0646\u062F\u060C \u0628\u0644\u06A9\u0647 \u0686\u0648\u0646 \u0628\u0631\u0646\u0627\u0645\u0647 \u0646\u0648\u06CC\u0633\u06CC \u0628\u0631\u0627\u06CC\u0634\u0627\u0646 \u0633\u0631\u06AF\u0631\u0645 \u06A9\u0646\u0646\u062F\u0647 \u0627\u0633\u062A"))), __jsx("div", {
     className: "text-center col-md-12 flex"
   }, __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -24528,7 +24529,7 @@ function ProjectItem() {
     link: 'http://seratvector.ir'
   }, {
     name: 'تهران گرافیک',
-    img: '../../static/images/project3.png',
+    img: '../../static/images/project5.png',
     link: 'http://tehran-graphic.ir'
   }, {
     name: 'ایمن صنعت پارسیان',
@@ -24565,7 +24566,7 @@ function ProjectItem() {
       animation: "zoomIn",
       key: index
     }, __jsx("div", {
-      className: "col-md-4 col-sm-6 col-xs-12"
+      className: "col-md-3 col-sm-4 col-xs-6"
     }, __jsx("a", {
       target: "_blank",
       href: item.link,
@@ -24582,7 +24583,10 @@ function ProjectItem() {
         borderBottom: '1px solid #ccc'
       }
     }), __jsx("div", {
-      className: "padding-10"
+      className: "padding-10",
+      style: {
+        fontSize: 10
+      }
     }, item.name))))));
   })), __jsx(react_wow__WEBPACK_IMPORTED_MODULE_1___default.a, {
     animation: "zoomIn"
@@ -24738,14 +24742,14 @@ function Index() {
 
 /***/ }),
 
-/***/ 0:
-/*!*************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cindex.js ***!
-  \*************************************************************************************************************************************/
+/***/ 2:
+/*!**********************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cindex.js ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cindex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cindex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cindex.js!./");
 
 
 /***/ }),
@@ -24761,5 +24765,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

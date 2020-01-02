@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1853,7 +1853,7 @@ function About() {
       name: 'xamarin',
       range: '60%'
     }, {
-      name: 'mobgo DB',
+      name: 'mongo DB',
       range: '50%'
     }]
   }];
@@ -2030,9 +2030,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Gallery() {
-  const gallery = ['../../static/images/9.jpg', '../../static/images/profile.jpg', '../../static/images/profile1.jpg', '../../static/images/profile2.jpg', // '../../static/images/4.jpg',
-  '../../static/images/5.jpg', '../../static/images/6.jpg', '../../static/images/7.jpg', '../../static/images/11.jpg', '../../static/images/12.jpg', '../../static/images/10.jpg' // '../../static/images/8.JPG'
-  ];
+  const gallery = ['../../static/images/9.png', '../../static/images/profile.png', '../../static/images/profile1.png', '../../static/images/profile2.png', '../../static/images/6.png', '../../static/images/3.JPG'];
   return __jsx("div", {
     className: "container"
   }, __jsx("div", {
@@ -2283,14 +2281,14 @@ const Project = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!********************************!*\
   !*** multi ./pages/gallery.js ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\mahdi.hasani\Desktop\next-ssr-\pages\gallery.js */"./pages/gallery.js");
+module.exports = __webpack_require__(/*! E:\project\react\next-ssr-\pages\gallery.js */"./pages/gallery.js");
 
 
 /***/ }),

@@ -8,7 +8,7 @@ function ProjectItem() {
         { name: 'اکانت گیم', img: '../../static/images/project4.png' ,link:'http://accountgame.ir'},           
         { name: 'هیئت قائمیون', img: '../../static/images/project2.png'  ,link:'http://ferdows110.ir'},
         { name: 'صراط وکتور', img: '../../static/images/project3.png' ,link:'http://seratvector.ir' },
-        { name: 'تهران گرافیک', img: '../../static/images/project3.png' ,link:'http://tehran-graphic.ir' },
+        { name: 'تهران گرافیک', img: '../../static/images/project5.png' ,link:'http://tehran-graphic.ir' },
         { name: 'ایمن صنعت پارسیان', img: '../../static/images/project1.png' ,link:'http://imensanaateparsian.ir' },                       
     ]
     const android = [
@@ -34,12 +34,12 @@ function ProjectItem() {
                         {
                             projects.map((item, index) =>
                                 <ReactWOW animation='zoomIn' key={index}>
-                                    <div className="col-md-4 col-sm-6 col-xs-12">
+                                    <div className="col-md-3 col-sm-4 col-xs-6">
                                         <a target='_blank' href={item.link} className="link">
                                             <div className="section__box p-0 pulse-hover">
                                                 <div className="text-center">
                                                     <img src={item.img} className="img-responsive" alt={item.name} style={{ borderBottom: '1px solid #ccc' }} />
-                                                    <div className="padding-10">
+                                                    <div className="padding-10" style={{fontSize:10}}>
                                                         {
                                                             item.name
                                                         }

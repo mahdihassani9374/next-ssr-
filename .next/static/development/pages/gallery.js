@@ -16134,10 +16134,10 @@ module.exports = __webpack_require__(/*! ./dist/index.js */ "./node_modules/next
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgallery&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cgallery.js!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgallery&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cgallery.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgallery&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cgallery.js!./":
+/*!***************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgallery&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cgallery.js ***!
+  \***************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23934,7 +23934,7 @@ function About() {
       name: 'xamarin',
       range: '60%'
     }, {
-      name: 'mobgo DB',
+      name: 'mongo DB',
       range: '50%'
     }]
   }];
@@ -24115,9 +24115,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function Gallery() {
-  var gallery = ['../../static/images/9.jpg', '../../static/images/profile.jpg', '../../static/images/profile1.jpg', '../../static/images/profile2.jpg', // '../../static/images/4.jpg',
-  '../../static/images/5.jpg', '../../static/images/6.jpg', '../../static/images/7.jpg', '../../static/images/11.jpg', '../../static/images/12.jpg', '../../static/images/10.jpg' // '../../static/images/8.JPG'
-  ];
+  var gallery = ['../../static/images/9.png', '../../static/images/profile.png', '../../static/images/profile1.png', '../../static/images/profile2.png', '../../static/images/6.png', '../../static/images/3.JPG'];
   return __jsx("div", {
     className: "container"
   }, __jsx("div", {
@@ -24370,14 +24368,14 @@ var Project = function Project() {
 
 /***/ }),
 
-/***/ 3:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fgallery&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cgallery.js ***!
-  \**********************************************************************************************************************************************/
+/***/ 1:
+/*!*******************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fgallery&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cgallery.js ***!
+  \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fgallery&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cgallery.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgallery&absolutePagePath=C%3A%5CUsers%5Cmahdi.hasani%5CDesktop%5Cnext-ssr-%5Cpages%5Cgallery.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fgallery&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cgallery.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fgallery&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cgallery.js!./");
 
 
 /***/ }),
@@ -24393,5 +24391,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=gallery.js.map

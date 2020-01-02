@@ -31,7 +31,7 @@ function Header() {
                 </ReactWOW>
                 <ReactWOW animation='zoomIn'>
                     <div className="text-center">
-                        <img src='../static/images/profile.jpg' className="header__section__img" alt="مهدی و مبین حسنی" />
+                        <img src='../static/images/profile.png' className="header__section__img" alt="مهدی و مبین حسنی" />
                     </div>
                 </ReactWOW>
                 <div className="text-center">
@@ -42,7 +42,7 @@ function Header() {
                         <h4 className="header__section__desc">ما عاشق برنامه نویسی ایم</h4>
                     </ReactWOW>
                     <ReactWOW animation='bounceInLeft'>
-                        <p className="padding-10 line-height-30"> بیشتر برنامه نویسان خوب برنامه نویسی می کنند نه
+                        <p className="padding-10 line-height-30" style={{fontSize:12}}> بیشتر برنامه نویسان خوب برنامه نویسی می کنند نه
                                 به این علت که انتظار دارند دستمزد بگیرند یا از سوی عموم تحسین شوند، بلکه چون برنامه نویسی برایشان
                     سرگرم کننده است</p>
                     </ReactWOW>

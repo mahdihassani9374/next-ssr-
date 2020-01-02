@@ -17,7 +17,7 @@ function About() {
             {name:'mvc  ',range:'80%'},
             {name:'ef core ',range:'80%'},
             {name:'xamarin',range:'60%'},
-            {name:'mobgo DB',range:'50%'},
+            {name:'mongo DB',range:'50%'},
         ]}
     ]
     return (
