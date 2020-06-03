@@ -2,6 +2,7 @@ import ReactWOW from 'react-wow';
 
 function ProjectItem() {
    const projects =[
+    { name: 'گروه جهادی وارثین', img: '../../static/images/varesin.PNG' ,link:'https://j-varesin.ir' },
         { name: 'آلتین سی ان سی (altin cnc)', img: '../../static/images/altin.png' ,link:'http://altincnc.com' },
         { name: 'هیوا پرواز (درحال پیاده سازی)', img: '../../static/images/hyva.png' ,link:'http://hyva.ferdows110.ir' },
         { name: 'آستان قدس رضوی منطقه ۱۸ تهران', img: '../../static/images/kannon.png' ,link:'http://kanoon.ferdows110.ir' },

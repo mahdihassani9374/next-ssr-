@@ -24504,6 +24504,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function ProjectItem() {
   var projects = [{
+    name: 'گروه جهادی وارثین',
+    img: '../../static/images/varesin.PNG',
+    link: 'https://j-varesin.ir'
+  }, {
     name: 'آلتین سی ان سی (altin cnc)',
     img: '../../static/images/altin.png',
     link: 'http://altincnc.com'
@@ -24742,7 +24746,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 2:
+/***/ 0:
 /*!**********************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5Cproject%5Creact%5Cnext-ssr-%5Cpages%5Cindex.js ***!
   \**********************************************************************************************************************/
@@ -24765,5 +24769,5 @@ module.exports = dll_01f9a3fa864a7b7414d8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
