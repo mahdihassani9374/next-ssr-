@@ -1,1 +1,21 @@
-{"/_app":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/_app.js","/_document":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/_document.js","/_error":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/_error.js","/about":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/about.html","/components/About":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/About.html","/components/Bg":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Bg.html","/components/Bg1":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Bg1.html","/components/Footer":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Footer.html","/components/Gallery":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Gallery.html","/components/Header":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Header.html","/components/Header1":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Header1.html","/components/Home":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Home.html","/components/Layout":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Layout.html","/components/ProjectItem":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/ProjectItem.html","/components/Services":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/components/Services.html","/gallery":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/gallery.html","/index":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/index.html","/project":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/project.html","/":"static/RBVi-5Al-JIkTyLJ1J1GZ/pages/index.html"}
+{
+  "/about": "pages/about.html",
+  "/components/About": "pages/components/About.html",
+  "/components/Bg": "pages/components/Bg.html",
+  "/components/Bg1": "pages/components/Bg1.html",
+  "/components/Footer": "pages/components/Footer.html",
+  "/components/Gallery": "pages/components/Gallery.html",
+  "/components/Header": "pages/components/Header.html",
+  "/components/Header1": "pages/components/Header1.html",
+  "/components/Home": "pages/components/Home.html",
+  "/components/Layout": "pages/components/Layout.html",
+  "/components/ProjectItem": "pages/components/ProjectItem.html",
+  "/components/Services": "pages/components/Services.html",
+  "/gallery": "pages/gallery.html",
+  "/": "pages/index.html",
+  "/project": "pages/project.html",
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}

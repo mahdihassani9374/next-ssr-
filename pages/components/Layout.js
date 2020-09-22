@@ -26,14 +26,14 @@ function Layout() {
     return (
         <div>
             <Head>
-                <link rel="stylesheet" href="static/lib/bootstrap/dist/css/bootstrap.min.rtl.css" />
-                <link rel="stylesheet" href="static/lib/font-awesome-4.7.0/css/font-awesome.min.css" />
-                <link rel="stylesheet" href="static/fonts/font-fa.css" />
-                <link rel="stylesheet" href="static/css/animate.css" />
-                <link rel="stylesheet" href="static/css/styles.css?v=0.0.1" />
-                <link rel="stylesheet" href="static/lib/pe-icon-7-stroke/css/helper.css" />
-                <link rel="stylesheet" href="static/lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
-                <link rel="stylesheet" href="static/css/override.css" />
+                <link rel="stylesheet" href="/static/lib/bootstrap/dist/css/bootstrap.min.rtl.css" />
+                <link rel="stylesheet" href="/static/lib/font-awesome-4.7.0/css/font-awesome.min.css" />
+                <link rel="stylesheet" href="/static/fonts/font-fa.css" />
+                <link rel="stylesheet" href="/static/css/animate.css" />
+                <link rel="stylesheet" href="/static/css/styles.css?v=0.0.1" />
+                <link rel="stylesheet" href="/static/lib/pe-icon-7-stroke/css/helper.css" />
+                <link rel="stylesheet" href="/static/lib/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
+                <link rel="stylesheet" href="/static/css/override.css" />
                 <meta charset="UTF-8" />
                 <meta name="description" content="وب سایت شخصی مهدی و مبین حسنی" />
                 <meta name="keywords" content="مهدی حسنی  , مبین حسنی  , حسنی  , براردان حسنی  , دوقلوها , حسنی دوقلو , مهدی و مبین حسنی , برنامه نویسی  " />
@@ -46,8 +46,8 @@ function Layout() {
                 <meta property="og:image" content="static/images/profile.jpg" />
                 <link rel="shortcut icon" type="image/png" href="static/images/icon.png" />
 
-                <script src="static/lib/jquery-3.1.1/jquery-3.1.1.min.js" type="text/javascript"></script>
-                <script src="static/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+                <script src="/static/lib/jquery-3.1.1/jquery-3.1.1.min.js" type="text/javascript"></script>
+                <script src="/static/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
             </Head>
         </div>
     )

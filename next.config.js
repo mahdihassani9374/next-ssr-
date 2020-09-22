@@ -1,10 +1,12 @@
 module.exports = {
-    exportPathMap: async function (defaultPathMap) {
-        return {
-            '/index.html': { page: '/' },
-            '/about.html': { page: '/about' },
-            '/gallery.html': { page: '/gallery' },
-            '/product.html': { page: '/product' },
-        }
+    trailingSlash: true,
+    exportPathMap: async function () {
+        const paths = {
+            '/': { page: '/' },
+            '/about': { page: '/about' },
+            '/gallery': { page: '/gallery' },
+            '/project': { page: '/project' }
+        };
+        return paths;
     }
-}
+};
