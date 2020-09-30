@@ -3,7 +3,7 @@ import ReactGA from 'react-ga';
 
 import Router from "next/router";
 import withGA from "next-ga";
-import React, { useEffect , useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import $ from 'jquery'
 
 function Layout() {
@@ -48,6 +48,21 @@ function Layout() {
 
                 <script src="/static/lib/jquery-3.1.1/jquery-3.1.1.min.js" type="text/javascript"></script>
                 <script src="/static/lib/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+                <script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=UA-123462599-1"
+                />
+
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '[Tracking ID]');
+        `,
+                    }}
+                />
             </Head>
         </div>
     )
