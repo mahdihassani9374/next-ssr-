@@ -2,12 +2,13 @@ import ReactWOW from 'react-wow';
 
 function Gallery() {
     const gallery =[
+        '../../static/images/profile1.jpg',
+        '../../static/images/profile2.jpg',
         '../../static/images/9.png',
         '../../static/images/profile.png',
         '../../static/images/profile1.png',
         '../../static/images/profile2.png',
-        '../../static/images/6.png',
-        '../../static/images/3.JPG',
+        '../../static/images/6.png'
     ]
     return (
         <div className="container">

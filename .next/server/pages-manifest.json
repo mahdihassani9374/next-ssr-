@@ -1,21 +1,7 @@
 {
-  "/about": "pages/about.html",
-  "/components/About": "pages/components/About.html",
-  "/components/Bg": "pages/components/Bg.html",
-  "/components/Bg1": "pages/components/Bg1.html",
-  "/components/Footer": "pages/components/Footer.html",
-  "/components/Gallery": "pages/components/Gallery.html",
-  "/components/Header": "pages/components/Header.html",
-  "/components/Header1": "pages/components/Header1.html",
-  "/components/Home": "pages/components/Home.html",
-  "/components/Layout": "pages/components/Layout.html",
-  "/components/ProjectItem": "pages/components/ProjectItem.html",
-  "/components/Services": "pages/components/Services.html",
-  "/gallery": "pages/gallery.html",
-  "/": "pages/index.html",
-  "/project": "pages/project.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/": "pages/index.js",
+  "/project": "pages/project.js"
 }

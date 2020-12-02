@@ -1,21 +1,22 @@
 import ReactWOW from 'react-wow';
 
 function ProjectItem() {
-   const projects =[
-    { name: 'گروه جهادی وارثین', img: '../../static/images/varesin.PNG' ,link:'https://j-varesin.ir' },
-        { name: 'آلتین سی ان سی (altin cnc)', img: '../../static/images/altin.png' ,link:'https://altincnc.com' },
-        { name: 'هیوا پرواز (درحال پیاده سازی)', img: '../../static/images/hyva.png' ,link:'http://hyva.ferdows110.ir' },
-        { name: 'آستان قدس رضوی منطقه ۱۸ تهران', img: '../../static/images/kannon.png' ,link:'http://kanoon.ferdows110.ir' },
-        { name: 'اکانت گیم', img: '../../static/images/project4.png' ,link:'http://accountgame.ir'},           
-        { name: 'هیئت قائمیون', img: '../../static/images/project2.png'  ,link:'http://ferdows110.ir'},
-        { name: 'صراط وکتور', img: '../../static/images/project3.png' ,link:'http://seratvector.ir' },
-        { name: 'تهران گرافیک', img: '../../static/images/project5.png' ,link:'http://tehran-graphic.ir' },
-        { name: 'ایمن صنعت پارسیان', img: '../../static/images/project1.png' ,link:'http://imensanaateparsian.ir' },                       
-        { name: 'وصی - پایگاه اطلاع رسانی مسجد امیرالمومنین(علیه السلام)', img: '../../static/images/vasi.PNG' ,link:'https://vasi110.ir' }                       
+    const projects = [
+        { name: 'گروه جهادی وارثین', img: '../../static/images/varesin.PNG', link: 'https://j-varesin.ir' },
+        { name: 'آلتین سی ان سی (altin cnc)', img: '../../static/images/altin.png', link: 'https://altincnc.com' },
+        // { name: 'هیوا پرواز (درحال پیاده سازی)', img: '../../static/images/hyva.png', link: 'http://hyva.ferdows110.ir' },
+        // { name: 'آستان قدس رضوی منطقه ۱۸ تهران', img: '../../static/images/kannon.png', link: 'http://kanoon.ferdows110.ir' },
+        { name: 'ایمن فروش', img: '../../static/images/imenforoush.png', link: 'https://imenforoush.com' },
+        { name: 'هیئت قائمیون', img: '../../static/images/project2.png', link: 'http://ferdows110.ir' },
+        { name: 'صراط وکتور', img: '../../static/images/project3.png', link: 'http://seratvector.ir' },
+        { name: 'تهران گرافیک', img: '../../static/images/project5.png', link: 'http://tehran-graphic.ir' },
+        { name: 'وصی - پایگاه اطلاع رسانی مسجد امیرالمومنین(علیه السلام)', img: '../../static/images/vasi.PNG', link: 'https://vasi110.ir' }
     ]
     const android = [
-        {name:'اپلیکیشن هیئت قائمیون'  , img:['../../static/images/application.png',
-    '../../static/images/application1.png','../../static/images/application2.png'] , link:'http://s9.picofile.com/file/8366729968/qaemioun_app.apk.html'}
+        {
+            name: 'اپلیکیشن هیئت قائمیون', img: ['../../static/images/application.png',
+                '../../static/images/application1.png', '../../static/images/application2.png'], link: 'http://s9.picofile.com/file/8366729968/qaemioun_app.apk.html'
+        }
     ]
     return (
         <section className="section">
@@ -41,7 +42,7 @@ function ProjectItem() {
                                             <div className="section__box p-0 pulse-hover">
                                                 <div className="text-center">
                                                     <img src={item.img} className="img-responsive" alt={item.name} style={{ borderBottom: '1px solid #ccc' }} />
-                                                    <div className="padding-10" style={{fontSize:10}}>
+                                                    <div className="padding-10" style={{ fontSize: 10 }}>
                                                         {
                                                             item.name
                                                         }
